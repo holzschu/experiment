@@ -12,7 +12,7 @@ let package = Package(
         targets: [
         .binaryTarget(
             name: "ios_system",
-            url: "https://github.com/holzschu/experiment/releases/download/1.0.0/ios_system.xcframework.zip",
+            url: "https://github.com/holzschu/experiment/releases/download/2.0.0/ios_system.xcframework.zip",
             checksum: "d5e3a9a8ed650815eeac2bf4290e3db4f7f34c6ab5d93f26e0b439ccab3c4310"
         )
     ]
