@@ -5,14 +5,14 @@ import PackageDescription
 let package = Package(
         name: "ios_system",
         products: [
-        .library(name: "ios_system", targets: ["ios_system", "awk", "curl_ios", "files", "shell", "ssh_cmd", "tar", "text", "mandoc", "perl", "perlA", "perlB"])
+        .library(name: "ios_system", targets: ["ios_system"])
         ],
         dependencies: [
         ],
         targets: [
         .binaryTarget(
             name: "ios_system",
-            url: "https://github.com/holzschu/ios_system/releases/download/v3.0.0/ios_system.xcframework.zip",
+            url: "https://github.com/holzschu/experiment/releases/download/1.0.0/ios_system.xcframework.zip",
             checksum: "23f7acb1d5b4557e6aaaf0336699b7788bd6ddd1586db5c12dee440a36acf415"
         )
     ]
